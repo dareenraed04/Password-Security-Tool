@@ -3,7 +3,7 @@ import random
 
 def check_password(password):
     score = 0
-
+# Test review
     if len(password) >= 8:
         score += 30
     else:
@@ -31,7 +31,7 @@ def check_password(password):
 
     return score
 
-
+   d+o
 def generate_password():
     letters = string.ascii_letters
     digits = string.digits
